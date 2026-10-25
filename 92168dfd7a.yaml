@@ -1,5 +1,5 @@
 # Oracle-PHX 自动分流配置 | 开[配置模式]即国内直连/国外代理
-# cfg-hash:aed87a6abd915b95 (配置指纹, 变=真改; 不变仅流量数字刷新)
+# cfg-hash:5338e0a0110a1013 (配置指纹, 变=真改; 不变仅流量数字刷新)
 # 节点名内嵌实时流量: 已用% │ 已用/10T │ 距重置天数
 mixed-port: 7890
 allow-lan: false
@@ -61,20 +61,6 @@ proxies:
   reality-opts:
     public-key: GgEbPjmynLhayRE7oxZXt9cB7fHLl0CLtVulkNtdK00
     short-id: e76c8f3b
-- name: 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
-  type: vless
-  server: 152.70.141.21
-  port: 2053
-  uuid: a788d450-6ca5-4101-ae7c-bdacab2d0afc
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GgEbPjmynLhayRE7oxZXt9cB7fHLl0CLtVulkNtdK00
-    short-id: e76c8f3b
 proxy-groups:
 - name: 🌐 节点选择
   type: select
@@ -82,13 +68,11 @@ proxy-groups:
   - ⚡ 自动测速
   - 🇺🇸 PHX 🚀HY2·极速 0.45% │ 45.8G/10T │ 剩7天
   - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   - DIRECT
 - name: ⚡ 自动测速
   type: url-test
   proxies: &id001
   - 🇺🇸 PHX 🚀HY2·极速 0.45% │ 45.8G/10T │ 剩7天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -104,7 +88,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 PHX 🚀HY2·极速 0.45% │ 45.8G/10T │ 剩7天
   - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   - ⚡ 自动测速
 - name: ✈️ Telegram
   type: url-test
@@ -116,7 +99,6 @@ proxy-groups:
   type: select
   proxies:
   - 🇺🇸 PHX 🚀HY2·极速 0.45% │ 45.8G/10T │ 剩7天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   - 🇺🇸 PHX 🛡️Reality·主力 0.45% │ 45.8G/10T │ 剩7天
   - ⚡ 自动测速
 rules:
