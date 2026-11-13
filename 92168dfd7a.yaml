@@ -39,7 +39,7 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩19天
+- name: 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩18天
   type: hysteria2
   server: 129.153.219.69
   port: 8443
@@ -47,7 +47,7 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩19天
+- name: 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩18天
   type: vless
   server: 129.153.219.69
   port: 443
@@ -66,14 +66,14 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ 自动测速
-  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩19天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩19天
+  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩18天
+  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩18天
   - DIRECT
 - name: ⚡ 自动测速
   type: url-test
   proxies: &id001
-  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩19天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩19天
+  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩18天
+  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩18天
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -86,8 +86,8 @@ proxy-groups:
 - name: 📺 流媒体
   type: select
   proxies:
-  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩19天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩19天
+  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩18天
+  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩18天
   - ⚡ 自动测速
 - name: ✈️ Telegram
   type: url-test
@@ -98,8 +98,8 @@ proxy-groups:
 - name: 💰 交易所
   type: select
   proxies:
-  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩19天
-  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩19天
+  - 🇺🇸 PHX 🚀HY2·极速 0.68% │ 69.4G/10T │ 剩18天
+  - 🇺🇸 PHX 🛡️Reality·主力 0.68% │ 69.4G/10T │ 剩18天
   - ⚡ 自动测速
 rules:
 - DOMAIN-KEYWORD,-logging.nextmedia.com,REJECT
